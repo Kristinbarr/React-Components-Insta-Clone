@@ -15,11 +15,18 @@
   color: #262626;
 }
 .image-wrapper {
-  height: 50px;
-}
-
-.logo-image {
+  display: flex;
   height: 100%;
+}
+.logo-image {
+  color: #231f20;
+  margin: .8rem .2rem; 
+}
+.logo-title {
+  height: 29px;
+  margin: 1rem .8rem;
+  padding-left: 1rem;
+  border-left: 1px solid #bbb;
 }
 
 .social-wrapper {
